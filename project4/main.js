@@ -21,7 +21,7 @@ email.addEventListener("invalid", () => {
 
   
   if(email.value === ""){
-    email.setCustomValidity(" Enter");
+    email.setCustomValidity("Enter your email ");
   } else {
     email.setCustomValidity("");
   }
@@ -35,7 +35,7 @@ fName.addEventListener("invalid", () => {
 
  
   if(fName.value === ""){
-    fiName.setCustomValidity(" Please");
+    fiName.setCustomValidity(" Please enter your name");
   } else {
     f.setCustomValidity("");
   }
@@ -46,7 +46,7 @@ locations.addEventListener("invalid", () => {
 
   
   if(locations.value === ""){
-    locations.setCustomValidity(" Please");
+    locations.setCustomValidity(" Please select the location");
   } else {
     locations.setCustomValidity("");
   }
@@ -58,7 +58,7 @@ age.addEventListener("invalid", () => {
 
   
   if(age.value === ""){
-    age.setCustomValidity("Enter");
+    age.setCustomValidity("please Enter your age s");
   } else {
     age.setCustomValidity("");
   }

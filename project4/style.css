@@ -6,6 +6,7 @@ body {
 background-size: cover;
   background-color: #000; 
   color: #fff; 
+    text-align:center;
 }
 
 form {
@@ -54,5 +55,4 @@ input:focus:invalid {
 .error.active {
   padding: 0.3em; 
 }
-
 

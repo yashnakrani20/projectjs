@@ -5,8 +5,13 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
 	<style type="text/css">
-        #img{
-                height: 200px;
+    
+        body {
+              text-align: center;
+        }
+      
+    img{
+        height: 200px;
     vertical-align: middle;
     border-style: none;
         }
@@ -96,9 +101,9 @@ function mainHeader(jsonObj){
 
 	//  second Header
     var secondHeader = document.createElement('h2');
-    //Grab the second header
+  
     secondHeader.textContent = jsonObj['secondHead'];
-    //Set this header in header tag
+  
     header.appendChild(secondHeader);
 }
 
@@ -107,7 +112,7 @@ function mainHeader(jsonObj){
 
 function topDeals(jsonObj){
 
-	//Declaration of top deals variable
+	
 
 	var dealsOfDay = jsonObj['topDeals'];
 
@@ -115,7 +120,6 @@ function topDeals(jsonObj){
 
 	for (var i = 0; i < dealsOfDay.length; i++){
 
-		// Declaration of varibles to set all tags
 
 		var article = document.createElement('article');
 		var h2 = document.createElement('h2');
@@ -126,7 +130,6 @@ function topDeals(jsonObj){
 
 
 
-		// Set all property for each element based on JSON
 
 		img.setAttribute('src', 'https://raw.githubusercontent.com/yashnakrani20/projectjs/master/project4/img/' + dealsOfDay[i].image);
 		img.setAttribute('alt', dealsOfDay[i].name);
@@ -137,12 +140,11 @@ function topDeals(jsonObj){
 		p2.textContent = 'Description: ' + dealsOfDay[i].description;
 
 
-		// Declaration of variable for features
+		//variable for features
 		var fectures = dealsOfDay[i].fectures;
 
 
 
-		//For loop for list item 
 		for (var j = 0; j < fectures.length; j++){
 
 		var productItem = document.createElement('li');
@@ -167,7 +169,7 @@ function topDeals(jsonObj){
 function initMap(){
 
 
-	var newmap = {lat: 44.365500, lng: -79.701087};
+	var newmap = {lat: 43.70011, lng:-79.4163};
 
 	var map = new google.maps.Map(
 		document.getElementById('map'), {zoom: 12, center: newmap});
@@ -178,7 +180,7 @@ function initMap(){
 </script>
 
 <script async defer
-src="https://maps.googleapis.com/maps/api/js?key=YOUR API KEY&callback=initMap">
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAj6_Au5vh1F6Mhdt32aQZOpGiju2dsh2c&callback=initMap">
 </script>
 
 
