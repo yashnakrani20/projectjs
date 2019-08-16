@@ -1,0 +1,44 @@
+{
+	"Head": "Our Product",
+	"secondHead": "top deals of the day",
+	"active": true,
+	"topDeals": [
+        {
+            "name": "A realistic dog pillow",
+			"price":14.99,
+			"description": "make your favourite pets as 3D pillow",
+			"fectures": [
+				"The pillow is made of well-chosen short plush and stuffed by PP cotton",
+				"Greate Gift for pet lovers",
+				" it is ultra-soft and healthy with good rebound",
+				"Vivid cartoon pillows for choosing, unique design for crazy fun"
+			],
+			"image": ""
+        },
+           {
+            "name": "A home mushroom farm",
+			"price": 22.85,
+			"description": "Now you can grow your own fungus right at home—and not in between your toes!.",
+			"fectures": [
+				"Grow delicious, gourmet oyster mushrooms right out of the box in just 10 days!",
+				"GREAT GIFT:ranked among top Holiday Gift. "
+			],
+			"image": ""
+        },
+           {
+            "name": "A horror movie sound maker",
+			"price":299.0 ,
+			"description": "Surprise guests by making them think It is hiding just around the corner.",
+			"fectures": [
+				"HORROR SOUND.The unique instrument Waterphone creates a weird sound that could be heard in horror movie and other music media.",
+				""
+				
+			],
+			"image": ""
+        }
+	]
+}
+
+
+
+
