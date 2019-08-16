@@ -41,7 +41,7 @@ var section = document.querySelector('section');
 
 // Json file on server and request URL
 
-var requestURL = 'https://api.myjson.com/bins/ritv3';
+var requestURL = 'https://raw.githubusercontent.com/yashnakrani20/projectjs/master/project4/product.json';
 
 // Create a new object
 var request = new XMLHttpRequest();
@@ -123,7 +123,7 @@ function topDeals(jsonObj){
 
 		// Set all property for each element based on JSON
 
-		img.setAttribute('src', 'https://docs.zoho.com/file/g067tbcbc78b8ee0f4545b0b479ec6af78027' + dealsOfDay[i].image);
+		img.setAttribute('src', 'https://raw.githubusercontent.com/yashnakrani20/projectjs/master/project4/img/' + dealsOfDay[i].image);
 		img.setAttribute('alt', dealsOfDay[i].name);
 
 		h2.textContent = dealsOfDay[i].name;

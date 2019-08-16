@@ -13,7 +13,7 @@
 				" it is ultra-soft and healthy with good rebound",
 				"Vivid cartoon pillows for choosing, unique design for crazy fun"
 			],
-			"image": ""
+			"image": "dog.jpg"
         },
            {
             "name": "A home mushroom farm",
@@ -23,18 +23,16 @@
 				"Grow delicious, gourmet oyster mushrooms right out of the box in just 10 days!",
 				"GREAT GIFT:ranked among top Holiday Gift. "
 			],
-			"image": ""
+			"image": "mus.jpg"
         },
            {
             "name": "A horror movie sound maker",
 			"price":299.0 ,
 			"description": "Surprise guests by making them think It is hiding just around the corner.",
 			"fectures": [
-				"HORROR SOUND.The unique instrument Waterphone creates a weird sound that could be heard in horror movie and other music media.",
-				""
-				
+				"HORROR SOUND.The unique instrument Waterphone creates a weird sound that could be heard in horror movie and other music media."	
 			],
-			"image": ""
+			"image": "movie.jpg"
         }
 	]
 }
